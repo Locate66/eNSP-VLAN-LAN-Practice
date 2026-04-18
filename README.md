@@ -4,8 +4,8 @@
 [cite_start]本项目基于 **Huawei eNSP** 模拟器开发，模拟了一个典型的中小型企业办公网络架构。项目核心目标是通过 VLAN 技术实现部门间的二层逻辑隔离，优化广播域，并为后续的三层互通与安全策略打下基础 [cite: 1]。
 
 ## 🏗️ 网络拓扑架构
-> **提示**：建议在此处上传你的 eNSP 拓扑截图并替换下方链接。
-![网络拓扑图](images/topology_screenshot.png)
+> <img width="479" height="270" alt="image" src="https://github.com/user-attachments/assets/09d68a6c-f49a-4aea-9a36-b6216800abc8" />
+
 
 ### 1. 业务 VLAN 规划
 | 业务部门 | VLAN ID | IP 网段 (建议) | 描述 |
@@ -34,5 +34,4 @@
 * **排障心得**：实验过程中重点解决了 Trunk 链路未放行特定 VLAN 导致的通信故障，强化了对 802.1Q 封装过程的理解。
 
 ---
-**作者**：费彬 (Fei Bin)  
-**当前状态**：网络工程在校生 | [cite_start]备考 HCIA 数通认证中 [cite: 2, 46]
+**作者**：Locate66
