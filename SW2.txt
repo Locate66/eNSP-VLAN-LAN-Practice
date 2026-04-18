@@ -1,0 +1,11 @@
+vlan batch 2 3 4
+
+int eth-trunk 1
+port link-type trunk
+port trunk allow-pass vlan 2 3 4
+trunkport e0/0/4
+trunkport e0/0/5
+
+int e0/0/1
+port link-type trunk
+port trunk allow-pass vlan 2 3 4

@@ -1,0 +1,13 @@
+vlan batch 2 3 4
+
+int e0/0/1
+port link-type access
+port default vlan 2
+
+int e0/0/2
+port link-type access
+port default vlan 3
+
+int e0/0/4
+port hybrid tagged vlan 2 4
+port hybrid untagged vlan 3
